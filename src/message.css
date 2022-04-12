@@ -1,0 +1,34 @@
+.input{
+    display: flex;
+    justify-content: CENTER;
+}
+.input > .addbtn{
+
+    display: flex !important;
+    top:0 !important;
+}
+.input > .addbtn > .btn{
+
+    outline: none;
+    border: none;
+    background: transparent;
+
+}
+.input > .addbtn .btn > .MuiSvgIcon-root{
+    
+    color:#333333;
+    width:27px;
+    height: 27px;
+    margin-right: 20px;
+}
+.box{
+    margin-top: 10px;
+}
+.box > .url{
+    width: 100%;
+    margin: 10px;
+}
+.box > .descrip{
+    margin: 10px;
+    width:100%;
+}

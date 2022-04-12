@@ -1,0 +1,104 @@
+.Right__bar{
+    position: fixed;
+    top:10;
+    right: 200px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+.RightBar__top {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.RightBar__top > .switch {
+    font-size: small;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    color:#0295F6;
+    cursor: pointer;
+}
+ .fname{
+    font-size: small;
+    color:#9C9C9C;
+}
+.RightBar__top .Usernames{
+    margin-right: 60px;
+}
+.RightBar__top .Usernames > h4 {
+    color:#3F3F3F;
+}
+
+.RightBar__top > .userPic{
+    width: 60px;
+    height: 60px;
+}
+
+.Rightbar__middle{
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.Rightbar__middle > .middle__header{
+    display: flex;
+    justify-content: space-between;
+}
+.Rightbar__middle > .middle__header h4{
+   
+    margin-left: 30px;
+    color:#A1A1A1;
+}
+.Rightbar__middle > .middle__header p{
+    font-size: small;
+    margin-right: 10px;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.users {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.users > .fullow {
+    font-size: small;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    color:#0295F6;
+    cursor: pointer;
+}
+ .discription{
+    font-size: small;
+    color:#9C9C9C;
+}
+.users .Usernames{
+    margin-right: 90px;
+}
+.users > .usersPic{
+    margin-left: 30px;
+}
+.users .Usernames > h5 {
+    color:#3F3F3F;
+}
+
+.users > .userPic{
+    width: 24px;
+    height: 24px;
+}
+
+
+.Rightbar__bottom > p {
+    font-size: small;
+    color:#D6D6D6;
+
+}
+
+.Rightbar__bottom > h5 {
+    color: #D6D6D6;
+}

@@ -1,0 +1,10 @@
+.App {
+  width: 100%;
+}
+.app__body{
+  display: flex;
+  justify-content: center;
+  background-color: #FAFAFA;
+  margin-top: 5px;
+  height: 100%;
+}
